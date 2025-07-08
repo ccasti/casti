@@ -9,7 +9,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import {
 	faArrowUp,
 	faChevronDown,
-	faChevronUp
+	faChevronUp,
+	faPhone,
+	faEnvelope
 } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -17,7 +19,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(
 	faArrowUp,
 	faChevronDown,
-	faChevronUp
+	faChevronUp,
+	faPhone,
+	faEnvelope
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

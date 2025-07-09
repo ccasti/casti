@@ -25,21 +25,58 @@
         </div>
       </section>
     </header>
-    <div class="box-notification is-marginless">
-      <transition name="notification">
-        <notification
-          v-show="showNotification"
-          class="notification"
-        />
-      </transition>
-    </div>
-    <div class="box-modal">
+    <div class="box-modal is-marginless">
       <transition name="show">
         <modal
           :modal="targetUrl"
           class="is-active"
           v-show="showModal"
           @clickCloseModal="isClosingModal"
+        />
+      </transition>
+    </div>
+    <div class="box-modal-Ana is-marginless">
+      <transition name="show">
+        <modal-ana
+          class="is-active"
+          v-show="showModalAna"
+          @clickCloseModal="isClosingModalAna"
+        />
+      </transition>
+    </div>
+    <div class="box-modal-Cap is-marginless">
+      <transition name="show">
+        <modal-cap
+          class="is-active"
+          v-show="showModalCap"
+          @clickCloseModal="isClosingModalCap"
+        />
+      </transition>
+    </div>
+    <div class="box-modal-Coa is-marginless">
+      <transition name="show">
+        <modal-coa
+          class="is-active"
+          v-show="showModalCoa"
+          @clickCloseModal="isClosingModalCoa"
+        />
+      </transition>
+    </div>
+    <div class="box-modal-Ges is-marginless">
+      <transition name="show">
+        <modal-ges
+          class="is-active"
+          v-show="showModalGes"
+          @clickCloseModal="isClosingModalGes"
+        />
+      </transition>
+    </div>
+    <div class="box-modal-web is-marginless">
+      <transition name="show">
+        <modal-web
+          class="is-active"
+          v-show="showModalWeb"
+          @clickCloseModal="isClosingModalWeb"
         />
       </transition>
     </div>
@@ -99,7 +136,21 @@
             </div>
           </div>
           <div class="columns">
-            <div class="column is-4">algo</div>
+            <div class="column is-4">
+              <p class="is-size-4-desktop is-size-6-mobile has-text-justified is-hidden-mobile">
+                <br/><br/><br/>
+                <strong>HABILIDADES</strong><br/>
+                <strong>Técnicas:</strong><br/>
+                - Análisis de Datos<br/>
+                - Gestión Comercial<br/>
+                - Análisis y Proyección financiera<br/>
+                - Comunicación Efectiva<br/>
+                - Desarrollo organizacional<br/>
+                <strong>Personales:</strong><br/>
+                - Liderazgo<br/>
+                - Proactividad
+              </p>
+            </div>
             <div class="column is-4">
               <div class="container">
                 <div class="border-box-orbe">
@@ -149,7 +200,41 @@
                 </div>
               </div>
             </div>
-            <div class="column is-3">otro algo</div>
+            <div class="column is-4">
+              <div class="container">
+                <div class="columns">
+                  <div class="column is-full">
+                    <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold has-text-centered">
+                      Idiomas
+                    </p>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-4-desktop is-size-6-mobile">
+                      Español
+                    </p>
+                    <progress class="progress is-link" value="100" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-4-desktop is-size-6-mobile">
+                      Ingles
+                    </p>
+                    <progress class="progress is-link" value="70" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-4-desktop is-size-6-mobile">
+                      Italiano
+                    </p>
+                    <progress class="progress is-link" value="35" max="100"></progress>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>  
       </div>
@@ -321,7 +406,7 @@
                       </div>
                       <div class="column is-9">
                         <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
-                          Ejecutivo Comercial Araucanía
+                          Ejecutivo Comercial
                         </p>
                         <p class="card-header-title is-paddingless is-size-5-desktop is-size-7-mobile">
                           Baninter Factoring S.A.
@@ -573,20 +658,35 @@
 
 <script>
 
-import Notification from './shared/Notification.vue'
 import Modal from './shared/Modal.vue'
+import ModalAna from './shared/ModalWeb.vue'
+import ModalCap from './shared/ModalCap.vue'
+import ModalCoa from './shared/ModalCoa.vue'
+import ModalGes from './shared/ModalGes.vue'
+import ModalWeb from './shared/ModalWeb.vue'
 
 export default { 
 
   name: 'MyWeb',
 
-  components: { Notification, Modal },
+  components: { 
+    Modal,
+    ModalAna,
+    ModalCap,
+    ModalCoa,
+    ModalGes,
+    ModalWeb
+  },
   
   data () {
     return {
 
-      showNotification: false,
       showModal: false,
+      showModalAna: false,
+      showModalCap: false,
+      showModalCoa: false,
+      showModalGes: false,
+      showModalWeb: false,
       showOption1: false,
       showOption2: false,
       showOption3: false,
@@ -595,12 +695,6 @@ export default {
 
       targetUrl: '',
 
-      exp: [
-        {
-          id: '11'
-        }
-      ],
-      
       courses: [
         {
           id: '1',
@@ -654,13 +748,39 @@ export default {
 
   methods: {
 
-    isClosingModal () {
-      this.showModal = false
-    },
+    isClosingModal () { this.showModal = false },
+
+    isClosingModalAna () { this.showModalAna = false },
+
+    isClosingModalCap () { this.showModalCap = false },
+
+    isClosingModalCoa () { this.showModalCoa = false },
+
+    isClosingModalGes () { this.showModalGes = false},
+
+    isClosingModalWeb () { this.showModalWeb = false },
 
     clickExp (ev) {
       ev.preventDefault()
-      console.log(ev.target.id)
+      let target = ev.target.id
+      const imagen = document.getElementById(target)
+      imagen.classList.remove('palpitar')
+      
+      if (target == 11) {
+        this.showModalCoa = true  
+      }
+      if (target == 12) {
+        this.showModalCap = true  
+      }
+      if (target == 13) {
+        this.showModalWeb = true  
+      }
+      if (target == 14) {
+        this.showModalAna = true  
+      }
+      if (target == 15) {
+        this.showModalGes = true  
+      }
     },
 
     clickCourse (ev) {
@@ -743,23 +863,6 @@ html {
   color: #2c3e50;
 }
 
-.box-notification {
-  display:flex;
-  justify-content: center;
-  margin-top: 6rem;
-}
-
-.notification {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  z-index: 1;
-  max-width: 400px;
-  border: 3px solid #CB4335;
-  border-radius: 9px;
-  box-shadow: 0px 0px 9px 3px #CB4335;
-}
-
 header {
   box-shadow: 0px 9px 9px 0px #000033;
 }
@@ -822,13 +925,13 @@ header {
 
 .hero-networks {
   background: #b1d7fd;
-  color: #fff !important;
+  color: #003366 !important;
   margin-top: 4.5rem;
 }
 
 .networks-title {
   color: #03203D;
-  margin: 3rem 0 1.5rem 0;
+  margin: 4.5rem 0 2.7rem 0;
 }
 
 .centrar {
@@ -847,7 +950,7 @@ header {
 
 .box-orbe {
   background-image: url('./assets/fondo.png');
-  background-size: auto;
+  background-size: contain;
   width: 100%;
   height: auto;
   border-radius: 3%;
@@ -1166,6 +1269,14 @@ header {
 
   .maker, .warranty {
     margin: 1.5rem 3% .9rem 3% !important;
+  }
+
+  .border-box-orbe {
+    padding: 0;
+  }
+
+  .box-orbe {
+    border: 3px solid #03203D;
   }
 
   .card-option {

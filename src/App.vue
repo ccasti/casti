@@ -35,7 +35,7 @@
         />
       </transition>
     </div>
-    <div class="box-modal-Ana is-marginless">
+    <div class="box-modal-ana is-marginless">
       <transition name="show">
         <modal-ana
           class="is-active"
@@ -44,7 +44,7 @@
         />
       </transition>
     </div>
-    <div class="box-modal-Cap is-marginless">
+    <div class="box-modal-cap is-marginless">
       <transition name="show">
         <modal-cap
           class="is-active"
@@ -53,7 +53,7 @@
         />
       </transition>
     </div>
-    <div class="box-modal-Coa is-marginless">
+    <div class="box-modal-coa is-marginless">
       <transition name="show">
         <modal-coa
           class="is-active"
@@ -62,7 +62,7 @@
         />
       </transition>
     </div>
-    <div class="box-modal-Ges is-marginless">
+    <div class="box-modal-ges is-marginless">
       <transition name="show">
         <modal-ges
           class="is-active"
@@ -137,19 +137,65 @@
           </div>
           <div class="columns">
             <div class="column is-4">
-              <p class="is-size-4-desktop is-size-6-mobile has-text-justified is-hidden-mobile">
-                <br/><br/><br/>
-                <strong>HABILIDADES</strong><br/>
-                <strong>Técnicas:</strong><br/>
-                - Análisis de Datos<br/>
-                - Gestión Comercial<br/>
-                - Análisis y Proyección financiera<br/>
-                - Comunicación Efectiva<br/>
-                - Desarrollo organizacional<br/>
-                <strong>Personales:</strong><br/>
-                - Liderazgo<br/>
-                - Proactividad
-              </p>
+              <div class="container">
+                <div class="columns">
+                  <div class="column is-full">
+                    <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold has-text-centered">
+                      Habilidades
+                    </p>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-vcentered">
+                  <div class="column is-4">
+                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
+                      Comunicación
+                    </p>
+                  </div>
+                  <div class="column is-6">
+                    <progress class="progress is-link bar" value="75" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-vcentered">
+                  <div class="column is-4">
+                    <p class="is-size-4-desktop is-size-6-mobile has-text-rights">
+                      Comunicación
+                    </p>
+                  </div>
+                  <div class="column is-6">
+                    <progress class="progress is-link bar" value="80" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-vcentered">
+                  <div class="column is-4">
+                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
+                      Comunicación
+                    </p>
+                  </div>
+                  <div class="column is-6">
+                    <progress class="progress is-link bar" value="90" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-vcentered">
+                  <div class="column is-4">
+                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
+                      Ingles
+                    </p>
+                  </div>
+                  <div class="column is-6">
+                    <progress class="progress is-link bar" value="80" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile is-vcentered">
+                  <div class="column is-4">
+                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
+                      Comunicación
+                    </p>
+                  </div>
+                  <div class="column is-6">
+                    <progress class="progress is-link bar" value="75" max="100"></progress>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="column is-4">
               <div class="container">
@@ -659,7 +705,7 @@
 <script>
 
 import Modal from './shared/Modal.vue'
-import ModalAna from './shared/ModalWeb.vue'
+import ModalAna from './shared/ModalAna.vue'
 import ModalCap from './shared/ModalCap.vue'
 import ModalCoa from './shared/ModalCoa.vue'
 import ModalGes from './shared/ModalGes.vue'
@@ -934,13 +980,17 @@ header {
   margin: 4.5rem 0 2.7rem 0;
 }
 
+.bar {
+  margin-left: 1.5rem;
+}
+
 .centrar {
   display: flex;
   justify-content: center;
 }
 
 .border-box-orbe {
-  background: #03203D;
+  background-color: #03203D;
   width: 100%;
   padding: 1.8rem 1.2rem 3.9rem 1.2rem;
   margin-bottom: 6rem;
@@ -949,8 +999,7 @@ header {
 }
 
 .box-orbe {
-  background-image: url('./assets/fondo.png');
-  background-size: contain;
+  background-color: #f1f8fe;
   width: 100%;
   height: auto;
   border-radius: 3%;

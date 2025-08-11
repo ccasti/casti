@@ -10,13 +10,13 @@
         <div class="container">
           <div class="columns">
             <div class="column is-paddingless">
-              <p class="is-size-5-desktop is-size-6-mobile has-text-centered">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-centered">
                 <strong>Se complementa con:</strong><br/>
               </p>
             </div>
           </div>
           <div class="columns is-mobile">
-            <div class="column is-4-desktop is-offset-4-desktop is-6-mobile is-offset-3-mobile">
+            <div class="column is-4-desktop is-offset-4-desktop is-4-tablet is-offset-4-tablet is-6-mobile is-offset-3-mobile">
               <figure class="image">
                 <img class="img-up" src="../assets/ifin.png">
               </figure>
@@ -24,18 +24,75 @@
           </div>
           <div class="columns">
             <div class="column">
-              <p class="is-size-5-desktop is-size-6-mobile has-text-justified">
-                Durante mis 14 años de experiencia en la industria financiera, trabajando siempre con empresas, he cultivado un sólido conocimiento de análisis y control financiero, tales como:<br/><br/>
-                <strong>- Determinación de posición financiera.</strong><br/>
-                <strong>- Análisis de capacidades de Pago.</strong><br/>
-                <strong>- Análisis de flujos y desfaces de caja.</strong><br/>
-                <strong>- Estructuras de financiamiento.</strong><br/>
-                <strong>- Mitigación riesgos tipo de cambio.</strong><br/><br/>
-                El Coaching está presente en todas mis gestiones como profesional, principalmente en las interacciones con personas, facilitando espacios de trabajo productivos.<br/><br/>
-                Todas las instancias de <strong>Capacitación </strong>que diseño y desarrollo tienen incorporados los conceptos del Coaching para el potenciamiento de las personas, siendo parte integral de una estrategia de gestión de personas.<br/>
-                El <strong>Desarrollo Web</strong> me permite implementar instancias digitales de autoconocimiento y reflexión, que aportan información importante a los procesos de desarrollo de las personas.<br/><br/>
-                <strong>Conoce mi trabajo en la ventana de más abajo</strong>, se trata de una dinámica llamada "Carta a mi niñez", una poderosa y emotiva instancia de reflexión y autodescubrimiento diseñada para conectarte con todo aquello que define a la persona que eres.
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-justified">
+                Con más de 14 años de trayectoria en la industria financiera, he desarrollado un profundo conocimiento en análisis y control financiero aplicado a empresas.<br/><br/>
+                Además, complemento esta experiencia con habilidades avanzadas en análisis de datos para potenciar la precisión y profundidad en la interpretación financiera y la toma de decisiones.<br/><br/>
+                Mis habilidades en finanzas:
               </p>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Evaluación de posición financiera.
+              </p>
+              <progress class="progress is-link" value="96" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Análisis de capacidades de pago.
+              </p>
+              <progress class="progress is-link" value="96" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Presupuesto y Forecasting
+              </p>
+              <progress class="progress is-link" value="85" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Gestión de Costos
+              </p>
+              <progress class="progress is-link" value="90" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Gestión de flujos y desfases de caja.
+              </p>
+              <progress class="progress is-link" value="96" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Optimización de estructuras de financiamiento.
+              </p>
+              <progress class="progress is-link" value="90" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Mitigación estratégica de riesgos cambiarios.
+              </p>
+              <progress class="progress is-link" value="85" max="100"></progress>
+            </div>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2 last">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                Conocimiento Tributario Básico
+              </p>
+              <progress class="progress is-link" value="87" max="100"></progress>
             </div>
           </div>
         </div>
@@ -71,6 +128,10 @@ export default {
 
   .delete {
     color: #003366;
+  }
+
+  .last {
+    margin-bottom: 2.4rem;
   }
 
   .modal-card-foot {

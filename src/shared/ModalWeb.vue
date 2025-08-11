@@ -10,33 +10,51 @@
         <div class="container">
           <div class="columns">
             <div class="column is-paddingless">
-              <p class="is-size-5-desktop is-size-6-mobile has-text-centered">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-centered">
                 <strong>Se complementa con:</strong><br/>
               </p>
             </div>
           </div>
           <div class="columns is-mobile">
-            <div class="column is-4-desktop is-offset-4-desktop is-6-mobile is-offset-3-mobile">
+            <div class="column is-4-desktop is-offset-4-desktop is-4-tablet is-offset-4-tablet is-6-mobile is-offset-3-mobile">
               <figure class="image">
                 <img class="img-up" src="../assets/iweb.png">
               </figure>
             </div>
           </div>
           <div class="columns">
+            <div class="column">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-justified">
+                Pulsa en cada barra para ver el detalle y un demo interactivo.
+              </p>
+             </div>
+          </div>
+          <div class="columns">
             <div class="column is-full">
               <div class="card-option">
                 <header @click="toggleOption2" class="card-header">
-                  <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                  <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                     Análisis de datos
                   </p>
                 </header>
                 <transition name="expand">
                   <div v-show="showOption2" class="card-content has-text-justified">
-                    <p class="is-size-5-desktop is-size-6-mobile has-text-justified">
-                      Desarrollo de dashboards interactivos para la visualización de datos, customizados según el consumidor de la información, esto permite múltiples opciones de organización y configuracion, al implementarse en una instancia web, cada usuario autorizado con el link podrá realizar una revisión independiente respecto de la información y datos, además de obtener una interfaz amigable, permite incorporar contexto, comentarios, etc. Ideal para presentaciones corporativas y directorios.<br/>
-                      <strong>Revisar instancia de Análisis de Datos en Expertises.</strong>
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Entornos web personalizados para la presentación enriquecida de datos<br/>
+                      Desarrollo entornos web a medida que integran múltiples dashboards, ofreciendo una experiencia mucho más rica y dinámica que una presentación tradicional o un dashboard individual. Estas interfaces se diseñan según las necesidades específicas de los usuarios, permitiendo organizar, contextualizar y narrar los datos con interacción y flexibilidad.<br/><br/>
+                      Revisa un demo preparado con los datos del censo nacional del año 2024.<br/>
                     </p>
-                  </div>   
+                    <button
+                      id="ad"
+                      class="button is-rounded"
+                      @click="go">
+                      Ir al demo</button>
+                    <p
+                      v-show="showTextRedirectAD"
+                      class="is-size-5-desktop is-size-5-tablet is-size-6-mobile text-redirect">
+                      <strong>Estás siendo redirigido al demo</strong>
+                    </p>
+                  </div>
                 </transition>
               </div>
             </div>
@@ -45,16 +63,26 @@
             <div class="column is-full">
               <div class="card-option">
                 <header @click="toggleOption3" class="card-header">
-                  <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                  <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                     Capacitación
                   </p>
                 </header>
                 <transition name="expand">
                   <div v-show="showOption3" class="card-content has-text-justified">
-                    <p class="is-size-5-desktop is-size-6-mobile has-text-justified">
-                      Desarrollo de instancias digitales interactivas de capacitación.<br/>
-                      Desarrollo de test digitales de evaluación de actitudes y conocimientos para uso de recursos humanos en el desarrollo de personas además de los procesos de selección y reclutamiento, permitiendo un ahorro en recursos al automatizar el levantamiento de información y evaluación.
-                      <strong>Revisar demo en instancia de Capacitación en Expertises.</strong>
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Diseño y desarrollo de entornos digitales interactivos para capacitación, optimizados para maximizar la participación y el aprendizaje.<br/>
+                      Creación de evaluaciones en línea para medir conocimientos y actitudes, orientadas a procesos de desarrollo de talento, reclutamiento y selección. Estas soluciones permiten automatizar la recopilación y análisis de información, optimizando recursos y mejorando la eficiencia de los procesos de Recursos Humanos.<br/><br/>
+                      Revisa un demo de instancia de capacitación digital.<br/>
+                    </p>
+                    <button
+                      id="c"
+                      class="button is-rounded"
+                      @click="go">
+                      Ir al demo</button>
+                    <p
+                      v-show="showTextRedirectC"
+                      class="is-size-5-desktop is-size-5-tablet is-size-6-mobile text-redirect">
+                      <strong>Estás siendo redirigido al demo</strong>
                     </p>
                   </div>   
                 </transition>
@@ -63,15 +91,15 @@
           </div>
           <div class="columns">
             <div class="column">
-              <p class="is-size-5-desktop is-size-6-mobile has-text-justified">
-                <strong>Todas las instancias de este sitio web fueron programadas por mí</strong>, para realizarlo utilicé mis habilidades de maquetación en HTML, estilos, transiciones y animaciones con CSS e interacciones y dinamismo del sitio con JavaScript, además del framework Vue2.<br/><br/>
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-justified">
+                <strong>Todas las interfaces de este sitio web fueron programadas por mí</strong>, para realizarlo utilicé mis habilidades de maquetación en HTML, estilos, transiciones y animaciones con CSS e interacciones y dinamismo del sitio con JavaScript, además del framework Vue2.<br/><br/>
                 Otras Habilidades en el desarrollo web:
               </p>
              </div>
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 Consumo de API´s
               </p>
               <progress class="progress is-link" value="95" max="100"></progress>
@@ -79,7 +107,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 Vue
               </p>
               <progress class="progress is-link" value="75" max="100"></progress>
@@ -87,7 +115,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 Python
               </p>
               <progress class="progress is-link" value="40" max="100"></progress>
@@ -95,7 +123,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 SQL
               </p>
               <progress class="progress is-link" value="50" max="100"></progress>
@@ -103,7 +131,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 HTML
               </p>
               <progress class="progress is-link" value="95" max="100"></progress>
@@ -111,7 +139,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 CSS
               </p>
               <progress class="progress is-link" value="90" max="100"></progress>
@@ -119,7 +147,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 JavaScript
               </p>
               <progress class="progress is-link" value="85" max="100"></progress>
@@ -127,7 +155,7 @@
           </div>
           <div class="columns is-mobile">
             <div class="column is-8 is-offset-2 last">
-              <p class="is-size-5-desktop is-size-6-mobile">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                 Git y GitHub
               </p>
               <progress class="progress is-link" value="75" max="100"></progress>
@@ -150,6 +178,10 @@ export default {
 
       showOption2: false,
       showOption3: false,
+      showTextRedirectAD: false,
+      showTextRedirectC: false,
+      targetId: '',
+      targetUrl: ''
     
     }
   },
@@ -174,6 +206,50 @@ export default {
       } else {
         this.showOption3 = true
       }
+    },
+
+    click (ev) {
+      ev.preventDefault()
+      this.targetId = ev.target.id
+      
+      document.getElementById(this.targetId).style.boxShadow = "0px 6px 6px 0px #000033";
+      setTimeout(() => {
+        document.getElementById(this.targetId).style.boxShadow = "0px 12px 6px -3px #000033";
+      }, 300)
+
+      setTimeout(() => {
+        document.getElementById(this.targetId).classList.add('is-loading')
+      }, 600);
+    },
+
+    redirecting () {
+
+      setTimeout(() => {
+        if (this.targetId == 'ad') {
+          this.showTextRedirectAD = true  
+        }
+        if (this.targetId == 'c') {
+          this.showTextRedirectC = true
+        }
+      }, 900);
+
+      setTimeout(() => {
+        location.href = this.targetUrl
+      }, 2400);
+    
+    },
+
+    go (ev) {
+      this.click(ev)
+      
+      if (this.targetId == 'ad') {
+        this.targetUrl = 'https://censo.webcoach.cl/'
+      }
+      if (this.targetId == 'c') {
+        this.targetUrl = 'https://cap.webcoach.cl/'
+      }
+
+      this.redirecting()
     }
 
   }
@@ -207,8 +283,35 @@ export default {
     box-shadow: 0px 6px 6px 0px #003366;
   }
 
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .last {
     margin-bottom: 2.4rem;
+  }
+
+  .button {
+    margin: 3rem auto;
+    background-color: #003366;
+    border-color: #003366 !important;
+    color: #fff;
+    box-shadow: 0px 6px 6px 0px #000033;
+    transition: all 300ms;
+    -webkit-tap-highlight-color: transparent;
+    opacity: .9;
+  }
+
+  .button:hover {
+    box-shadow: 0px 12px 6px -3px #000033;
+    color: #fff !important;
+    opacity: 1;
+  }
+
+  .text-redirect {
+    align-self: center ;
   }
 
   .modal-card-foot {
@@ -220,6 +323,13 @@ export default {
     .card-option {
       box-shadow: 0px 3px 3px 0px #003366;
       margin-bottom: 0;
+    }
+
+    .button {
+      box-shadow: 0px 12px 6px -3px #000033;
+      transition: all 300ms;
+      -webkit-tap-highlight-color: transparent;
+      opacity: 1;
     }
   }
 

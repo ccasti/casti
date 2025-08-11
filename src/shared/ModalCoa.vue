@@ -10,13 +10,13 @@
         <div class="container">
           <div class="columns">
             <div class="column is-paddingless">
-              <p class="is-size-5-desktop is-size-6-mobile has-text-centered">
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-centered">
                 <strong>Se complementa con:</strong><br/>
               </p>
             </div>
           </div>
           <div class="columns is-mobile">
-            <div class="column is-4-desktop is-offset-4-desktop is-6-mobile is-offset-3-mobile">
+            <div class="column is-4-desktop is-offset-4-desktop is-4-tablet is-offset-4-tablet is-6-mobile is-offset-3-mobile">
               <figure class="image">
                 <img class="img-up" src="../assets/icoa.png">
               </figure>
@@ -24,18 +24,19 @@
           </div>
           <div class="columns">
             <div class="column">
-              <p class="is-size-5-desktop is-size-6-mobile has-text-justified">
-                Experiencia de 12 años en procesos de Coaching de personas y equipos de trabajo. Me enfoco en el desarrollo de habilidades claves para el desempeño personal y profesional, facilitando la capacidad de las personas para auto gestionarse y enfocarse en el cumplimiento de los objetivos, desarrollando habilidades tales como:<br/><br/>
+              <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-justified">
+                <strong>Más de 12 años potenciando personas y equipos</strong><br/>
+                Combino mi experiencia en <strong>Coaching</strong> con habilidades en <strong>Capacitación</strong> y <strong>Desarrollo Web</strong> para impulsar el crecimiento personal y profesional.<br/><br/>
+                Me especializo en fortalecer competencias clave como:<br/><br/>
                 <strong>- Inteligencia Emocional</strong><br/>
                 <strong>- Comunicación Efectiva</strong><br/>
                 <strong>- Escucha Activa</strong><br/>
                 <strong>- Trabajo en Equipo</strong><br/>
                 <strong>- Liderazgo</strong><br/>
                 <strong>- Motivación</strong><br/><br/>
-                El Coaching está presente en todas mis gestiones como profesional, principalmente en las interacciones con personas, facilitando espacios de trabajo productivos.<br/><br/>
-                Todas las instancias de <strong>Capacitación </strong>que diseño y desarrollo tienen incorporados los conceptos del Coaching para el potenciamiento de las personas, siendo parte integral de una estrategia de gestión de personas.<br/><br/>
-                El <strong>Desarrollo Web</strong> me permite implementar instancias digitales de autoconocimiento y reflexión, que aportan información importante a los procesos de desarrollo de las personas.<br/><br/>
-                <strong>Conoce mi trabajo en la ventana de más abajo</strong>, se trata de una dinámica llamada "Carta a mi niñez", una poderosa y emotiva instancia de reflexión y autodescubrimiento diseñada para conectarte con todo aquello que define a la persona que eres.<br/><br/>
+                Integro el <strong>Coaching</strong> en cada proyecto, creando espacios de trabajo productivos y estrategias de gestión de personas con impacto real.<br/>
+                El <strong>Desarrollo Web</strong> me permite diseñar herramientas digitales de autoconocimiento y reflexión, que enriquecen los procesos formativos.<br/><br/>
+                Debajo encontrarás <strong>"Carta a mi niñez"</strong>, una experiencia emotiva de reflexión y autodescubrimiento, diseñada para reconectar con lo que define quién eres.
               </p>
             </div>
           </div>

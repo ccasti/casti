@@ -6,17 +6,17 @@
           <div class="container">
             <div class="columns is-vcentered is-mobile">
               <div class="column is-4">
-                <p class="is-size-4-desktop is-size-6-mobile">
+                <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                   <a href="#networks">Expertises</a>
                 </p>
               </div>
               <div class="column is-4">
-                <p class="is-size-4-desktop is-size-6-mobile">
+                <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                   <a href="#maker">Formación</a>
                 </p>
               </div>
               <div class="column is-4">
-                <p class="is-size-4-desktop is-size-6-mobile">
+                <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                   <a href="#content">Experiencia</a>
                 </p>
               </div>
@@ -99,26 +99,26 @@
           </div>
           <div class="columns is-marginless">
             <div class="column is-full is-paddingless">
-              <p class="is-size-3-desktop is-size-5-mobile title-text">
+              <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile title-text">
                 Cristian Castillo Matamoros 
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile subtitle-text">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile subtitle-text">
                 Ingeniero Comercial / Máster en Coaching / Desarrollador de Entornos Web
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile subtitle-text">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile subtitle-text">
                 <span>
                   <font-awesome-icon icon="envelope" />
                 </span>
                 ccastim@gmail.com
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile subtitle-text">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile subtitle-text">
                 <span>
                   <font-awesome-icon icon="phone" />
                 </span>
                 +56 9 7778 9116
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile subtitle-text has-text-weight-semibold">
-                Disponibilidad inmediata para trabajos de tiempo completo, freelance y proyectos particulares.
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile subtitle-text has-text-weight-semibold">
+                Disponible para oportunidades inmediatas en tiempo completo, consultoría o proyectos a medida.
               </p>
             </div>
           </div>
@@ -130,74 +130,91 @@
         <div class="container">
           <div class="columns">
             <div class="column is-full is-paddingless">
-              <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold has-text-centered networks-title">
+              <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile has-text-weight-bold has-text-centered networks-title">
                 Expertises
+              </p>
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile has-text-centered networks-subtitle">
+                Pulsa los botones amarillos para detalle de expertis.
               </p>
             </div>
           </div>
-          <div class="columns">
-            <div class="column is-4">
+          <div class="columns is-desktop">
+            <div class="column is-4 is-hidden-touch">
               <div class="container">
                 <div class="columns">
                   <div class="column is-full">
-                    <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold has-text-centered">
+                    <p class="is-size-5-desktop is-size-5-mobile has-text-weight-bold has-text-centered">
                       Habilidades
                     </p>
                   </div>
                 </div>
-                <div class="columns is-mobile is-vcentered">
-                  <div class="column is-4">
-                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
-                      Comunicación
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Pensamiento Crítico
                     </p>
-                  </div>
-                  <div class="column is-6">
-                    <progress class="progress is-link bar" value="75" max="100"></progress>
+                    <progress class="progress is-link" value="95" max="100"></progress>
                   </div>
                 </div>
-                <div class="columns is-mobile is-vcentered">
-                  <div class="column is-4">
-                    <p class="is-size-4-desktop is-size-6-mobile has-text-rights">
-                      Comunicación
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobiles">
+                      Orientación a Resultados
                     </p>
-                  </div>
-                  <div class="column is-6">
-                    <progress class="progress is-link bar" value="80" max="100"></progress>
+                    <progress class="progress is-link" value="93" max="100"></progress>
                   </div>
                 </div>
-                <div class="columns is-mobile is-vcentered">
-                  <div class="column is-4">
-                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
-                      Comunicación
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Capacidad de Diagnóstico
                     </p>
-                  </div>
-                  <div class="column is-6">
-                    <progress class="progress is-link bar" value="90" max="100"></progress>
+                    <progress class="progress is-link" value="100" max="100"></progress>
                   </div>
                 </div>
-                <div class="columns is-mobile is-vcentered">
-                  <div class="column is-4">
-                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
-                      Ingles
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Visión Estratégica
                     </p>
-                  </div>
-                  <div class="column is-6">
-                    <progress class="progress is-link bar" value="80" max="100"></progress>
+                    <progress class="progress is-link" value="85" max="100"></progress>
                   </div>
                 </div>
-                <div class="columns is-mobile is-vcentered">
-                  <div class="column is-4">
-                    <p class="is-size-4-desktop is-size-6-mobile has-text-right">
-                      Comunicación
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Comunicación Efectiva
                     </p>
+                    <progress class="progress is-link" value="93" max="100"></progress>
                   </div>
-                  <div class="column is-6">
-                    <progress class="progress is-link bar" value="75" max="100"></progress>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Trabajo en Equipo
+                    </p>
+                    <progress class="progress is-link" value="96" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Gestión del Cambio
+                    </p>
+                    <progress class="progress is-link" value="85" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-6-mobile">
+                      Ética Profesional
+                    </p>
+                    <progress class="progress is-link" value="100" max="100"></progress>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column is-4">
+            <div class="column is-4-desktop is-offset-0-desktop is-8-tablet is-offset-2-tablet is-12-mobile">
               <div class="container">
                 <div class="border-box-orbe">
                   <div class="box-orbe">
@@ -205,14 +222,14 @@
                       <div class="column is-6 is-paddingless centrar">
                         <div class="orbe-up-left">
                           <figure class="image exp-img" @click="clickExp">
-                            <img id="11" class="img-exp palpitar" src="./assets/coac.png">
+                            <img id="111" class="img-exp palpitar" src="./assets/coac.png">
                           </figure>
                         </div>
                       </div>
                       <div class="column is-6 is-paddingless centrar">
                         <div class="orbe-up-rigth">
                           <figure class="image exp-img" @click="clickExp">
-                            <img id="12" class="img-exp palpitar" src="./assets/capa.png">
+                            <img id="112" class="img-exp palpitar" src="./assets/capa.png">
                           </figure>
                         </div>
                       </div>
@@ -221,7 +238,7 @@
                       <div class="column is-12 is-paddingless">
                         <div class="orbe-center">
                           <figure class="image exp-img" @click="clickExp">
-                            <img id="13" class="img-exp palpitar" src="./assets/desa.png">
+                            <img id="113" class="img-exp palpitar" src="./assets/desa.png">
                           </figure>
                         </div>
                       </div>
@@ -230,14 +247,14 @@
                       <div class="column is-6 is-paddingless centrar">
                         <div class="orbe-down-left">
                           <figure class="image exp-img" @click="clickExp">
-                            <img id="14" class="img-exp palpitar" src="./assets/anal.png">
+                            <img id="114" class="img-exp palpitar" src="./assets/anal.png">
                           </figure>
                         </div>
                       </div>
                       <div class="column is-6 is-paddingless centrar">
                         <div class="orbe-down-rigth">
                           <figure class="image exp-img" @click="clickExp">
-                            <img id="15" class="img-exp palpitar" src="./assets/gest.png">
+                            <img id="115" class="img-exp palpitar" src="./assets/gest.png">
                           </figure>
                         </div>
                       </div>
@@ -246,18 +263,18 @@
                 </div>
               </div>
             </div>
-            <div class="column is-4">
+            <div class="column is-4-desktop is-6-tablet is-offset-0-desktop is-offset-3-tablet languages">
               <div class="container">
                 <div class="columns">
                   <div class="column is-full">
-                    <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold has-text-centered">
+                    <p class="is-size-5-desktop is-size-4-tablet is-size-5-mobile has-text-weight-bold has-text-centered">
                       Idiomas
                     </p>
                   </div>
                 </div>
                 <div class="columns is-mobile">
                   <div class="column is-8 is-offset-2">
-                    <p class="is-size-4-desktop is-size-6-mobile">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                       Español
                     </p>
                     <progress class="progress is-link" value="100" max="100"></progress>
@@ -265,7 +282,7 @@
                 </div>
                 <div class="columns is-mobile">
                   <div class="column is-8 is-offset-2">
-                    <p class="is-size-4-desktop is-size-6-mobile">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                       Ingles
                     </p>
                     <progress class="progress is-link" value="70" max="100"></progress>
@@ -273,10 +290,85 @@
                 </div>
                 <div class="columns is-mobile">
                   <div class="column is-8 is-offset-2">
-                    <p class="is-size-4-desktop is-size-6-mobile">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
                       Italiano
                     </p>
-                    <progress class="progress is-link" value="35" max="100"></progress>
+                    <progress class="progress is-link" value="30" max="100"></progress>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-hidden-desktop is-6-tablet is-offset-3-tablet languages">
+              <div class="container">
+                <div class="columns">
+                  <div class="column is-full">
+                    <p class="is-size-4-tablet is-size-5-mobile has-text-weight-bold has-text-centered">
+                      Habilidades
+                    </p>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Pensamiento Crítico
+                    </p>
+                    <progress class="progress is-link" value="95" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobiles">
+                      Orientación a Resultados
+                    </p>
+                    <progress class="progress is-link" value="93" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Capacidad de Diagnóstico
+                    </p>
+                    <progress class="progress is-link" value="100" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Visión Estratégica
+                    </p>
+                    <progress class="progress is-link" value="85" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Comunicación Efectiva
+                    </p>
+                    <progress class="progress is-link" value="93" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Trabajo en Equipo
+                    </p>
+                    <progress class="progress is-link" value="96" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Gestión del Cambio
+                    </p>
+                    <progress class="progress is-link" value="85" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column is-8 is-offset-2">
+                    <p class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">
+                      Ética Profesional
+                    </p>
+                    <progress class="progress is-link" value="100" max="100"></progress>
                   </div>
                 </div>
               </div>
@@ -290,7 +382,7 @@
         <div class="container">
           <div class="columns">
             <div class="column is-full is-paddingless">
-              <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold prof-title">
+              <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile has-text-weight-bold prof-title">
                 Formación Profesional
               </p>
             </div>
@@ -302,10 +394,10 @@
               </figure>
             </div>
             <div class="column is-10">
-              <p class="is-size-4-desktop is-size-6-mobile formation-text has-text-weight-semibold">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile formation-text has-text-weight-semibold">
                 Máster en Coaching, CES Don Bosco, Madrid.
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile formation-text"  >
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile formation-text"  >
                 Titulado en el año 2013  
               </p>
             </div>
@@ -317,10 +409,10 @@
               </figure>
             </div>
             <div class="column is-10">
-              <p class="is-size-4-desktop is-size-6-mobile formation-text has-text-weight-semibold">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile formation-text has-text-weight-semibold">
                 Ingeniería Comercial, Universidad Arturo Prat.
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile formation-text"  >
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile formation-text"  >
                 Titulado con distinción en el año 2006  
               </p>
             </div>
@@ -332,18 +424,21 @@
               </figure>
             </div>
             <div class="column is-10">
-              <p class="is-size-4-desktop is-size-6-mobile formation-text has-text-weight-semibold">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile formation-text has-text-weight-semibold">
                 Ingeniería de Ejecución en Administración de Empresas, AIEP.
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile formation-text"  >
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile formation-text"  >
                 Titulado con  máxima distinción en el año 2002  
               </p>
             </div>
           </div>
           <div class="columns is-marginless">
             <div class="column is-full is-paddingless">
-              <p class="is-size-3-desktop is-size-5-mobile has-text-weight-bold courses-title">
+              <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile has-text-weight-bold courses-title">
                 Cursos Adicionales
+              </p>
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile has-text-centered courses-subtitle">
+                Pulsa cada ícono para ver el certificado del curso.
               </p>
             </div>
           </div>
@@ -430,12 +525,13 @@
         <div class="container">
           <div class="columns box-content">
             <div class="column is-12-mobile is-10-desktop is-offset-1-desktop">
-              <p class="is-size-3-desktop is-size-5-mobile title-content">
+              <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile title-content">
                 Experiencia Profesional
               </p>
-              <p class="is-size-4-desktop is-size-6-mobile has-text-justified">
+              <p class="is-size-4-desktop is-size-5-tablet is-size-6-mobile has-text-justified">
                 Sólida experiencia en gestión de actividades de personas y comerciales, análisis y control financiero de empresas. Óptimo manejo de grupos y equipos de trabajo a través de la aplicación de habilidades relacionales, destacando un estilo de liderazgo de coach, generando relaciones interpersonales potentes y orientadas al cumplimiento de objetivos.<br/>
-                Experiencia en el desarrollo y relatoría de Programas de Capacitación. Manejo avanzado de herramientas de Tecnologías de la Información y análisis de datos.
+                Experiencia en el desarrollo y relatoría de Programas de Capacitación. Manejo avanzado de herramientas de Tecnologías de la Información y análisis de datos.<br/><br/>
+                Pulsa en cada barra para ver el detalle.
               </p>
             </div>
           </div>
@@ -451,10 +547,10 @@
                         </figure>
                       </div>
                       <div class="column is-9">
-                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                           Ejecutivo Comercial
                         </p>
-                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-7-mobile">
+                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-6-tablet is-size-7-mobile">
                           Baninter Factoring S.A.
                         </p>
                       </div>
@@ -504,10 +600,10 @@
                         </figure>
                       </div>
                       <div class="column is-9">
-                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                           Jefe de Administración
                         </p>
-                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-7-mobile">
+                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-6-tablet is-size-7-mobile">
                           Autorentas del Pacífico SpA, MITTA
                         </p>
                       </div>
@@ -554,10 +650,10 @@
                         </figure>
                       </div>
                       <div class="column is-9">
-                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                           Agente de Sucursal
                         </p>
-                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-7-mobile">
+                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-6-tablet is-size-7-mobile">
                           Factorone S.A.
                         </p>
                       </div>
@@ -605,10 +701,10 @@
                         </figure>
                       </div>
                       <div class="column is-9">
-                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                           Asesoría Financiera y Coaching
                         </p>
-                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-7-mobile">
+                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-6-tablet is-size-7-mobile">
                           Independiente
                         </p>
                       </div>
@@ -650,10 +746,10 @@
                         </figure>
                       </div>
                       <div class="column is-9">
-                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-6-mobile">
+                        <p class="card-header-title is-paddingless is-size-4-desktop is-size-5-tablet is-size-6-mobile">
                           Ejecutivo Grandes Empresas
                         </p>
-                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-7-mobile">
+                        <p class="card-header-title is-paddingless is-size-5-desktop is-size-6-tablet is-size-7-mobile">
                           Banco Chile
                         </p>
                       </div>
@@ -744,47 +840,47 @@ export default {
       courses: [
         {
           id: '1',
-          url: 'foto1'
+          url: './img/texc.f62587d7.png'
         },
         {
           id: '2',
-          url: 'foto2'
+          url: './img/tbi.8ac2e955.png'
         },
         {
           id: '3',
-          url: 'foto3'
+          url: './img/tvue.01271b9e.png'
         },
         {
           id: '4',
-          url: 'foto4'
+          url: './img/tvuep.01271b9e.png'
         },
         {
           id: '5',
-          url: 'foto5'
+          url: './img/tprog.f24e0844.png'
         },
         {
           id: '6',
-          url: 'foto6'
+          url: './img/tjs.12f3f42b.png'
         },
         {
           id: '7',
-          url: 'foto7'
+          url: './img/thtml.07887b14.png'
         },
         {
           id: '8',
-          url: 'foto8'
+          url: './img/tresp.4098ee4c.png'
         },
         {
           id: '9',
-          url: 'foto9'
+          url: './img/tg-suite.f1469bf6.png'
         },
         {
           id: '10',
-          url: 'foto10'
+          url: './img/ttrello.4eefa493.png'
         },
         {
           id: '11',
-          url: 'foto11'
+          url: './img/ttrem.38acfb1a.png'
         }
       ]
       
@@ -812,19 +908,19 @@ export default {
       const imagen = document.getElementById(target)
       imagen.classList.remove('palpitar')
       
-      if (target == 11) {
+      if (target == 111) {
         this.showModalCoa = true  
       }
-      if (target == 12) {
+      if (target == 112) {
         this.showModalCap = true  
       }
-      if (target == 13) {
+      if (target == 113) {
         this.showModalWeb = true  
       }
-      if (target == 14) {
+      if (target == 114) {
         this.showModalAna = true  
       }
-      if (target == 15) {
+      if (target == 115) {
         this.showModalGes = true  
       }
     },
@@ -835,9 +931,11 @@ export default {
       
       for (var i in this.courses) {
         if (this.courses[i].id == target) {
+          console.log(this.courses[i])
           this.targetUrl = this.courses[i].url
           this.showModal = true
           const imagen = document.getElementById(target)
+          console.log(imagen)
           imagen.classList.remove('palpitar')
         }
       }
@@ -977,11 +1075,11 @@ header {
 
 .networks-title {
   color: #03203D;
-  margin: 4.5rem 0 2.7rem 0;
+  margin: 4.5rem 0 0 0;
 }
 
-.bar {
-  margin-left: 1.5rem;
+.networks-subtitle {
+  margin-bottom: 2.7rem;
 }
 
 .centrar {
@@ -1149,6 +1247,10 @@ header {
   display: block;
   text-align: center;
   margin-top: 4.5rem;
+  margin-bottom: 0;
+}
+
+.courses-subtitle {
   margin-bottom: 4.5rem;
 }
 
@@ -1204,27 +1306,18 @@ header {
   padding: 2.4rem 1.5rem;
 }
 
-.button-offer {
-  display: flex;
-  justify-content: center;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .border-box-orbe {
+    margin-bottom: .9rem;
+  }
+
+  .languages {
+    margin-bottom: 3rem;
+  }
+
 }
 
-.button {
-  margin-top: 2.4rem;
-  margin-bottom: 1.2rem;
-  background-color: #CD564A;
-  border-color: #CD564A;
-  color: #fff !important;
-  box-shadow: 0px 6px 6px 0px #922D23;
-  transition: all 300ms;
-  -webkit-tap-highlight-color: transparent;
-  opacity: .9;
-}
-
-.button:hover {
-  box-shadow: 0px 12px 6px -3px #922D23;
-  opacity: 1;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -1321,11 +1414,19 @@ header {
   }
 
   .border-box-orbe {
+    max-width: 94%;
     padding: 0;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: .9rem;
   }
 
   .box-orbe {
     border: 3px solid #03203D;
+  }
+
+  .languages {
+    margin-bottom: 3rem;
   }
 
   .card-option {
@@ -1334,13 +1435,6 @@ header {
 
   .card-option:hover {
     box-shadow: 0px 6px 6px 0px #0080ff;
-  }
-
-  .button {
-    box-shadow: 0px 12px 6px -3px #922D23;
-    transition: all 300ms;
-    -webkit-tap-highlight-color: transparent;
-    opacity: 1;
   }
 
   .footer {
